@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CODE4</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body, nav, ul, ol, li, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            width: 600px;
+            margin: 8px auto;
+            /*padding: 8px;*/
+            background: #f1f1f1;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+            color: #333;
+            padding: 8px 16px;
+        }
+
+        ul:after {
+            content: "";
+            height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        ul > li {
+            float: left;
+            position: relative;
+        }
+
+        a:hover {
+            background: #ccc;
+        }
+
+        ol {
+            width: 160px;
+            color: #000;
+            background: #fff;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        li:hover ol {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">作品</a></li>
+        <li>
+            <a href="#">更多</a>
+            <ol>
+                <li><a href="#">1024</a></li>
+                <li><a href="#">1024</a></li>
+                <li><a href="#">1024</a></li>
+            </ol>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
