@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CODE4</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            color: #666;
+        }
+
+        /*公共样式*/
+        ul {
+            list-style: none;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .container, .flex-c {
+            width: 800px;
+            margin: 10px auto;
+        }
+
+        h1 {
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        li {
+            width: 260px;
+            box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        /*浮动+负外边距方法*/
+        .container ul {
+            margin-left: -10px;
+        }
+
+        .container ul li {
+            float: left;
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+
+        /*flex方法*/
+        .flex-c ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .flex-c ul li {
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>风景列表</h1>
+    <ul class="clearfix">
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>风景如画</p>
+        </li>
+    </ul>
+</div>
+<!--flex方法-->
+<div class="flex-c">
+    <h1>FLEX-风景列表</h1>
+    <ul>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+        <li>
+            <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="">
+            <p>FLEX-风景如画</p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

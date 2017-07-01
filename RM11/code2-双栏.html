@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>code2</title>
+    <style type="text/css">
+        body, div, span, aside, main {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .container {
+            max-width: 800px;
+            min-width: 150px;
+            margin: 60px auto;
+            padding: 30px;
+            background: #ccc;
+            box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .container span {
+            font-weight: bold;
+            font-size: 26px;
+            float: right;
+            color: darkred;
+            cursor: pointer;
+            position: relative;
+            top: -30px;
+            left: 20px;
+        }
+
+        .container aside {
+            float: left;
+            width: 150px;
+            min-height: 300px;
+            background: darkcyan;
+        }
+
+        .container main {
+            min-height: 600px;
+            margin-left: 160px;
+            margin-right: 10px;
+            background: darkgreen;
+        }
+
+        /*flex方法*/
+        .flex-c {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            max-width: 800px;
+            min-width: 150px;
+            margin: 60px auto;
+            padding: 30px;
+            background: #ccc;
+            box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .flex-c aside {
+            width: 150px;
+            min-height: 300px;
+            background: darkcyan;
+        }
+
+        .flex-c main {
+            flex-grow: 1;
+            min-height: 600px;
+            margin-left: 10px;
+            background: darkgreen;
+        }
+        .flex-c span{
+            order: 3;
+            font-size: 26px;
+            font-weight: bold;
+            color: darkred;
+            cursor: pointer;
+            position: relative;
+            top: -30px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container clearfix">
+    <span>×</span>
+    <aside>aside</aside>
+    <main>main</main>
+</div>
+<div class="flex-c">
+    <span>×</span>
+    <aside>flex-aside</aside>
+    <main>flex-main</main>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>code1</title>
+    <style type="text/css">
+        body, div, ul, li, a {
+            margin: 0;
+            padding: 0;
+            font-family: "微软雅黑", sans-serif;
+            color: #646464;
+        }
+
+        .clearfix:after {
+            content: "";
+            height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 800px;
+            margin: 30px auto;
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #646464;
+            border-radius: 3px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        /*垂直居中*/
+        .center:before {
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            visibility: hidden;
+        }
+
+        .center {
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px solid #646464;
+            border-radius: 3px;
+        }
+
+        .center li {
+            float: left;
+            padding: 3px;
+        }
+
+        .center li:nth-child(1) {
+            border-right: 1px solid #646464;
+        }
+
+        .center li:hover {
+            background: #ccc;
+        }
+
+        /*以下为flex布局方案*/
+        nav.container {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav.container a {
+            border: 1px solid #646464;
+            padding: 3px;
+        }
+
+        nav.container a:hover {
+            background: #ccc;
+        }
+
+        nav.container a:nth-child(1) {
+            border-right: none;
+            border-radius: 3px 0 0 3px;
+        }
+
+        nav.container a:nth-child(2) {
+            border-radius: 0 3px 3px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul class="center clearfix">
+        <li><a href="#">TAG1</a></li>
+        <li><a href="#">TAG2</a></li>
+    </ul>
+</div>
+<nav class="container">
+    <a href="">flex1</a>
+    <a href="">flex2</a>
+</nav>
+</body>
+</html>

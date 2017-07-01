@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CODE3</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*公共样式*/
+        .container {
+            width: 800px;
+            min-height: 600px;
+            margin: 30px auto;
+            border: 1px solid darkred;
+        }
+
+        aside, nav {
+            width: 150px;
+            height: 300px;
+            border: 1px solid darkcyan;
+        }
+
+        main {
+            border: 1px solid darkgreen;
+        }
+
+        aside, main, nav {
+            margin: 16px;
+        }
+
+        /*普通方法*/
+        .normal aside, .normal main, .normal nav {
+            float: left;
+        }
+
+        .normal main {
+            border: 1px solid darkgreen;
+            width: 398px;
+            height: 500px;
+        }
+
+        /*flex方法*/
+        .flex-c {
+            display: flex;
+        }
+
+        .flex-c main {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="normal container">
+    <aside>aside</aside>
+    <main>main</main>
+    <nav>right-nav</nav>
+</div>
+<div class="flex-c container">
+    <aside>flex-aside</aside>
+    <main>flex-main</main>
+    <nav>flex-right-nav</nav>
+</div>
+</body>
+</html>
