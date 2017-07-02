@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/RM11/code4-六格.html" afterPath="$PROJECT_DIR$/RM11/code4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/RM11/code5-练习.html" afterPath="$PROJECT_DIR$/RM11/code5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/RM11/code6-圣杯.html" afterPath="$PROJECT_DIR$/RM11/code6-sb.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/RM11/code7-双飞翼.html" afterPath="$PROJECT_DIR$/RM11/code7-sfy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM11/code4.html" afterPath="$PROJECT_DIR$/RM11/code4.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,12 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <first_editor relative-caret-position="443">
+                <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -40,10 +38,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code3-1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RM11/code5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RM11/code4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code3-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RM11/code3-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="720">
               <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
@@ -53,7 +71,7 @@
       <file leaf-file-name="code3-4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RM11/code3-4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="870">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -118,7 +136,6 @@
         <option value="$PROJECT_DIR$/RM11/code1.html" />
         <option value="$PROJECT_DIR$/RM11/code2.html" />
         <option value="$PROJECT_DIR$/RM11/code3.html" />
-        <option value="$PROJECT_DIR$/RM11/code4.html" />
         <option value="$PROJECT_DIR$/RM11/code4-六格.html" />
         <option value="$PROJECT_DIR$/RM11/code5.html" />
         <option value="$PROJECT_DIR$/RM11/code5-练习.html" />
@@ -131,6 +148,7 @@
         <option value="$PROJECT_DIR$/RM11/code7-双飞翼.html" />
         <option value="$PROJECT_DIR$/RM11/code6-圣杯.html" />
         <option value="$PROJECT_DIR$/RM11/code2-双栏.html" />
+        <option value="$PROJECT_DIR$/RM11/code4.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -324,12 +342,12 @@
       <workItem from="1498846490318" duration="1651000" />
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
-      <workItem from="1499003109446" duration="12005000" />
+      <workItem from="1499003109446" duration="12621000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35380000" />
+    <option name="totallyTimeSpent" value="35996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,8 +360,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -628,22 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RM11/code4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="38" column="87" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="38" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RM11/code5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RM11/code7-sfy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -668,17 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RM11/code3-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -697,7 +689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RM11/code3-4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="870">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
@@ -705,9 +697,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RM11/code3-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="720">
           <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RM11/code4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RM11/code5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="443">
+            <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
