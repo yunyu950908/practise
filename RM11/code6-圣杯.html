@@ -7,6 +7,7 @@
         * {
             margin: 0;
             padding: 0;
+            height: 100%;
         }
 
         .container:after {
@@ -16,7 +17,7 @@
         }
 
         .container {
-            padding-left: 100px;
+            padding-left: 150px;
             padding-right: 150px;
         }
 
@@ -26,26 +27,21 @@
 
         .main {
             width: 100%;
-            height: 350px;
-            background: #9c2;
+            background: green;
         }
-
-        .aside {
-            width: 100px;
-            height: 300px;
-            margin-left: -100%;
+        .aside,.extra{
+            width: 150px;
             position: relative;
-            left: -100px;
-            background: #8dd;
+            background: red;
+        }
+        .aside {
+            margin-left: -100%;
+            left: -150px;
         }
 
         .extra {
-            width: 150px;
-            height: 300px;
             margin-left: -150px;
-            position: relative;
-            left: 150px;
-            background: #666;
+            left: 150px;;
         }
     </style>
 </head>

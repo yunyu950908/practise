@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏flex</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container{
+            display: flex;
+        }
+        .left,.right{
+            width: 150px;
+            background: red;
+        }
+        main{
+            flex-grow: 1;
+            background: green;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <aside class="left">left</aside>
+    <main>main</main>
+    <aside class="right">right</aside>
+</div>
+</body>
+</html>

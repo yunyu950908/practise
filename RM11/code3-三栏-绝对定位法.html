@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位法</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        main {
+            margin: 0 160px;
+            background: green;
+        }
+
+        .left, .right {
+            width: 150px;
+            position: absolute;
+            top: 0;
+            background: red;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <aside class="left">left</aside>
+    <main>main</main>
+    <aside class="right">right</aside>
+</div>
+</body>
+</html>
