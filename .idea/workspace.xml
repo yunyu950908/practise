@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/RM11/code3-三栏-margin负值法.html" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RM11/code3-三栏-flex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RM11/code3-三栏-margin负值法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RM11/code3-三栏-绝对定位法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RM11/code3-三栏-自身浮动法.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RM11/code3-三栏.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM11/code2-双栏.html" afterPath="$PROJECT_DIR$/RM11/code2-双栏.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM11/code6-圣杯.html" afterPath="$PROJECT_DIR$/RM11/code6-圣杯.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM11/code7-双飞翼.html" afterPath="$PROJECT_DIR$/RM11/code7-双飞翼.html" />
-    </list>
+    <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -274,12 +264,12 @@
       <workItem from="1498846490318" duration="1651000" />
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
-      <workItem from="1499003109446" duration="8888000" />
+      <workItem from="1499003109446" duration="9765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32263000" />
+    <option name="totallyTimeSpent" value="33140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
