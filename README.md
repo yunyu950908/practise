@@ -30,4 +30,4 @@ myPractise
 
 ## 入门13-CSS 综合
 
-[CSS综合](./practise/Reference/rm13.md)
+[CSS综合](./Reference/rm13.md)
