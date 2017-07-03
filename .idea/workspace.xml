@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reference/rm12-浏览器兼容.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reference/rm12-浏览器兼容.md" afterPath="$PROJECT_DIR$/Reference/rm12-浏览器兼容.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/Reference/rm12-浏览器兼容.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <first_editor relative-caret-position="143">
+                <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -298,12 +297,12 @@
       <workItem from="1498846490318" duration="1651000" />
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
-      <workItem from="1499003109446" duration="16603000" />
+      <workItem from="1499003109446" duration="17099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39978000" />
+    <option name="totallyTimeSpent" value="40474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,8 +681,8 @@
     <entry file="file://$PROJECT_DIR$/Reference/rm12-浏览器兼容.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <first_editor relative-caret-position="143">
+            <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
