@@ -26,8 +26,8 @@ myPractise
 
 ## 入门12-浏览器兼容
 
-[关于`CSS`浏览器兼容](https://github.com/yunyu950908/practise/blob/master/Reference/rm12.md)
+[关于`CSS`浏览器兼容](./Reference/rm12.md)
 
 ## 入门13-CSS 综合
 
-[CSS综合](/Reference/rm13.md)
+[CSS综合](./practise/Reference/rm13.md)
