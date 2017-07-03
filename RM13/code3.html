@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vertical-align与空元素居中对齐</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 600px;
+            height: 600px;
+            margin: 60px auto;
+            background: green;
+            text-align: center;
+        }
+
+        div:before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            visibility: hidden;
+            vertical-align: middle;
+        }
+
+        div main {
+            width: 200px;
+            height: 200px;
+            background: red;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <main></main>
+</div>
+</body>
+</html>
