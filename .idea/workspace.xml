@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM14/code2-resume1.html" afterPath="$PROJECT_DIR$/RM14/code2-resume1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM14/code2-resume2.html" afterPath="$PROJECT_DIR$/RM14/code2-resume2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM14/code1-blog.html" afterPath="$PROJECT_DIR$/RM14/code1-blog.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,17 +63,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code1-blog.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="code1-blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RM14/code1-blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code2-resume1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code2-resume1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RM14/code2-resume1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -165,7 +164,6 @@
         <option value="$PROJECT_DIR$/RM13/code3.html" />
         <option value="$PROJECT_DIR$/RM13/code4.html" />
         <option value="$PROJECT_DIR$/RM13/code5-triangle.html" />
-        <option value="$PROJECT_DIR$/RM14/code1-blog.html" />
         <option value="$PROJECT_DIR$/RM13/code2.html" />
         <option value="$PROJECT_DIR$/Reference/rm13.md" />
         <option value="$PROJECT_DIR$/RM14/123.md" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RM14/code2-resume2.html" />
         <option value="$PROJECT_DIR$/RM14/code2-resume1.html" />
+        <option value="$PROJECT_DIR$/RM14/code1-blog.html" />
       </list>
     </option>
   </component>
@@ -397,12 +396,12 @@
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
       <workItem from="1499003109446" duration="17174000" />
-      <workItem from="1499066845241" duration="51287000" />
+      <workItem from="1499066845241" duration="51568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91836000" />
+    <option name="totallyTimeSpent" value="92117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,14 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RM14/code1-blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -788,6 +779,14 @@
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RM14/code1-blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
