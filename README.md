@@ -36,4 +36,6 @@ myPractise
 
 [1. 作品展示单页](http://liyu0906.cn/RM14/code1-blog.html)
 
-[2. resume](http://liyu0906.cn/RM14/code2-resume.html)
+[2-1. resume1](http://liyu0906.cn/RM14/code2-resume1.html)
+
+[2-2. resume2](http://liyu0906.cn/RM14/code2-resume2.html)
