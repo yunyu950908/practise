@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RM14/code2-resume2.html" afterPath="$PROJECT_DIR$/RM14/code2-resume2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,12 +27,9 @@
       <file leaf-file-name="code2-resume2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RM14/code2-resume2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-              <folding>
-                <element signature="n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -328,12 +324,12 @@
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
       <workItem from="1499003109446" duration="17174000" />
-      <workItem from="1499066845241" duration="52846000" />
+      <workItem from="1499066845241" duration="53192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93395000" />
+    <option name="totallyTimeSpent" value="93741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,12 +710,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RM14/code2-resume2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-          <folding>
-            <element signature="n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
