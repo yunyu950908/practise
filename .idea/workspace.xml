@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b82096e-2f5d-4610-98f5-45c8dc92c04a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/RM14/123.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/RM14/code-2-resume.html" afterPath="$PROJECT_DIR$/RM14/code2-resume.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code-2-resume.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RM14/code-2-resume.html">
+      <file leaf-file-name="code2-resume.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RM14/code2-resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="-109">
               <caret line="237" column="46" lean-forward="false" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
               <folding>
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -387,12 +385,12 @@
       <workItem from="1498935170453" duration="12062000" />
       <workItem from="1498947256708" duration="4960000" />
       <workItem from="1499003109446" duration="17174000" />
-      <workItem from="1499066845241" duration="46916000" />
+      <workItem from="1499066845241" duration="46968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87465000" />
+    <option name="totallyTimeSpent" value="87517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,9 +403,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16132478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -755,9 +752,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RM14/code-2-resume.html">
+    <entry file="file://$PROJECT_DIR$/RM14/code2-resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="-109">
           <caret line="237" column="46" lean-forward="false" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
           <folding>
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
