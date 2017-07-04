@@ -31,3 +31,9 @@ myPractise
 ## 入门13-CSS 综合
 
 [CSS综合](./Reference/rm13.md)
+
+## 入门14-静态单页/简历
+
+[1. 作品展示单页](http://liyu0906.cn/RM14/code1-blog.html)
+
+[2. resume](http://liyu0906.cn/RM14/code2-resume.html)
