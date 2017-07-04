@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>resume</title>
+    <style type="text/css">
+        /*初始化样式*/
+        * {
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 702px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+            background: #fafafa;
+        }
+
+        /*个人信息开始*/
+        .s1 {
+            text-align: center;
+        }
+
+        .s1 header {
+
+        }
+
+        .s1 header img {
+            display: block;
+        }
+
+        .s1 header img:nth-child(1) {
+            position: relative;
+            z-index: 1;
+        }
+
+        .s1 header img:nth-child(2) {
+            width: 100px;
+            margin: -135px auto 42px auto;
+            position: relative;
+            z-index: 0;
+        }
+
+        .s1 .name h2 {
+            font-size: 30px;
+            line-height: 1.5;
+            font-weight: normal;
+            margin: 8px;
+        }
+
+        .s1 .name p {
+            line-height: 2;
+        }
+
+        .s1 .intro {
+            margin: 8px;
+            font-size: 14px;
+            color: #666;
+            opacity: 0.8;
+            line-height: 2;
+        }
+
+        .s1 .intro p span {
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        .s1 .blog {
+            margin: 16px;
+        }
+
+        .s1 .blog a {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            margin: 0 6px;
+            border-radius: 50%;
+        }
+
+        .s1 .blog a:nth-child(1) {
+            background: url(http://www.lagou.com/images/myresume/sns_bg.png) -263px -5px no-repeat;
+        }
+
+        .s1 .blog a:nth-child(2) {
+            background: url(http://www.lagou.com/images/myresume/sns_bg.png) -520px -5px no-repeat;
+        }
+
+        .s1 .blog a:nth-child(3) {
+            background: url(http://www.lagou.com/images/myresume/sns_bg.png) -469px -5px no-repeat;
+        }
+
+        /*个人信息结束*/
+        /*教育经历*/
+        .s2 header {
+            display: flex;
+            align-items: center;
+        }
+
+        .s2 header i {
+            display: inline-block;
+            width: 230px;
+            height: 0;
+            border: 1px solid #eee;
+        }
+
+        .s2 header span {
+            display: inline-block;
+            margin: 0 16px;
+            padding: 6px 16px;
+            background: #eee;
+            border-radius: 18px;
+        }
+
+        /*项目经验*/
+
+        /*作品展示*/
+
+        /*技术栈*/
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--个人信息-->
+    <section class="s1">
+        <header>
+            <img src="http://www.lagou.com//images/myresume/tou.png" alt="">
+            <img src="http://img.mp.itc.cn/upload/20161103/fe4bc57b05ce4908820e7a594af60103_th.jpg" alt="">
+        </header>
+        <div class="name">
+            <h2>Name</h2>
+            <p>一个厨艺差的漫画家不是一个合格的coder</p>
+        </div>
+        <div class="intro">
+            <p>毕业院校：上海交通大学</p>
+            <p>
+                <span>男</span>
+                <span>22岁</span>
+                <span>应届大学生</span>
+                <span>本科</span>
+            </p>
+            <p>
+                <span>Tel.176-1234-1234</span>
+                <span>Mail.wtf123@1024.com</span>
+            </p>
+        </div>
+        <div class="blog">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+    </section>
+    <!--教育经历-->
+    <section class="s2">
+        <header>
+            <i></i>
+            <span>教育经历</span>
+            <i></i>
+        </header>
+    </section>
+</div>
+</body>
+</html>

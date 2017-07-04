@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+        }
+
+        body {
+            background: #fff2e3;
+            color: #87968e;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        .flex {
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        .flex header h1 {
+            margin: 30px auto;
+            font-size: 42px;
+        }
+
+        .flex header p {
+            margin-top: -3px;
+            opacity: 0.6;
+        }
+
+        .flex ul {
+            display: flex;
+            justify-content: center;
+            margin: 40px auto;
+        }
+
+        .flex ul li {
+            flex-direction: row;
+        }
+
+        .flex ul li a, .flex div a {
+            color: #fff;
+            display: inline-block;
+            margin: 2px 6px;
+            padding: 6px 14px;
+            border-radius: 2px;
+            background: #72b890;
+        }
+
+        .flex div {
+            margin: 30px auto;
+        }
+
+        .flex footer a {
+            color: #72b890;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <header>
+        <h1>我的项目</h1>
+        <p>一句话的自我介绍</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a>项目1</a></li>
+            <li><a>项目2</a></li>
+            <li><a>项目3</a></li>
+            <li><a>项目4</a></li>
+            <li><a>项目5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="http://7xpvnv.com2.z0.glb.qiniucdn.com/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="">
+        <div>
+            <a href="">查看源码</a>
+            <a href="">使用说明</a>
+        </div>
+    </main>
+    <footer>Auther:<a>xxx</a></footer>
+</div>
+</body>
+</html>
