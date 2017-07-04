@@ -17,7 +17,7 @@
 
         .container {
             width: 702px;
-            margin: 0 auto;
+            margin: 0 auto 42px auto;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -25,13 +25,47 @@
             background: #fafafa;
         }
 
+        /*公共样式*/
+        .ss header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 12px auto;
+        }
+
+        .ss header i {
+            display: inline-block;
+            width: 230px;
+            height: 0;
+            border: 1px solid #eee;
+        }
+
+        .ss header span {
+            display: inline-block;
+            margin: 0 16px;
+            padding: 6px 16px;
+            background: #eee;
+            border-radius: 18px;
+        }
+
+        .ss main .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ss main .title p {
+            font-size: 16px;
+        }
+
+        .ss main .title span {
+            font-size: 14px;
+            color: #999;
+        }
+
         /*个人信息开始*/
         .s1 {
             text-align: center;
-        }
-
-        .s1 header {
-
         }
 
         .s1 header img {
@@ -98,33 +132,86 @@
             background: url(http://www.lagou.com/images/myresume/sns_bg.png) -469px -5px no-repeat;
         }
 
-        /*个人信息结束*/
         /*教育经历*/
-        .s2 header {
+
+        /*项目经验*/
+        .s3 .pp {
+            margin: 16px auto;
+            padding: 16px 26px;
+            border-radius: 8px;
+            background: #00b88d;
+        }
+
+        .s3 .pp .title {
+            margin: 6px 0;
+        }
+
+        .s3 .pp .title p, .s3 .pp .title span {
+            color: #fff;
+        }
+
+        .s3 .pp .title p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .s3 .pp .jsz a, .s3 .pp .jsz p, .s3 .pp .jsz li {
+            line-height: 1.5;
+            color: #fff;
+        }
+
+        .s3 .pp .jsz a {
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .s3 .pp .jsz p {
+            border-top: 1px dotted #fff;
+            padding-top: 3px;
+        }
+
+        .s3 .pp .jsz ul li {
+            margin-left: 58px;
+        }
+
+        /*自我描述*/
+        .s4 main {
             display: flex;
+        }
+
+        .s4 main .logo img {
+            width: 120px;
+            display: inline-block;
+            margin: 16px 36px;
+            border-radius: 50%;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3), 0 5px 8px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .s4 main ul {
+            display: inline-block;
+            margin: 16px 36px 16px 16px;
+        }
+
+        .s4 main ul li {
+            line-height: 2;
+        }
+
+        /*footer*/
+        footer {
+            width: 702px;
+            height: 90px;
+            margin: 0 auto;
+            background: #f1f1f1;
+            display: flex;
+            justify-content: center;
             align-items: center;
         }
 
-        .s2 header i {
-            display: inline-block;
-            width: 230px;
-            height: 0;
-            border: 1px solid #eee;
+        footer p {
+            font-size: 14px;
+            opacity: 0.6;
         }
 
-        .s2 header span {
-            display: inline-block;
-            margin: 0 16px;
-            padding: 6px 16px;
-            background: #eee;
-            border-radius: 18px;
-        }
-
-        /*项目经验*/
-
-        /*作品展示*/
-
-        /*技术栈*/
     </style>
 </head>
 <body>
@@ -159,13 +246,85 @@
         </div>
     </section>
     <!--教育经历-->
-    <section class="s2">
+    <section class="s2 ss">
         <header>
             <i></i>
             <span>教育经历</span>
             <i></i>
         </header>
+        <main>
+            <div class="title">
+                <p>本科 · 上海交通大学</p>
+                <span>2013.09 - 2017.06</span>
+            </div>
+        </main>
     </section>
+    <!--项目经验-->
+    <section class="s3 ss">
+        <header>
+            <i></i>
+            <span>项目经验</span>
+            <i></i>
+        </header>
+        <main class="p1 pp">
+            <div class="title">
+                <p>开源项目：腾讯体育 app web版</p>
+                <span>2017.05 -- 至今</span>
+            </div>
+            <div class="jsz">
+                <a href="#">[ 链接：https://jirengu.com/1024 ]</a>
+                <p>技术栈：</p>
+                <ul>
+                    <li>ES6</li>
+                    <li>vue全家桶</li>
+                    <li>stylus</li>
+                    <li>webpack</li>
+                    <li>mock</li>
+                    <li>express</li>
+                </ul>
+            </div>
+        </main>
+        <main class="p2 pp">
+            <div class="title">
+                <p>开源项目：KFC小程序</p>
+                <span>2017.04 -- 2017.04</span>
+            </div>
+            <div class="jsz">
+                <a href="#">[ 链接：https://jirengu.com/1024 ]</a>
+                <p>技术栈：</p>
+                <ul>
+                    <li>WEUI</li>
+                    <li>mock</li>
+                    <li>小程序</li>
+                    <li>腾讯地图API</li>
+                </ul>
+            </div>
+        </main>
+    </section>
+    <!--自我描述-->
+    <section class="s4 ss">
+        <header>
+            <i></i>
+            <span>自我描述</span>
+            <i></i>
+        </header>
+        <main>
+            <div class="logo">
+                <img src="http://img.mp.itc.cn/upload/20161103/fe4bc57b05ce4908820e7a594af60103_th.jpg" alt="">
+            </div>
+            <ul>
+                <li>我的Github：https://github.com/xxxxxxx</li>
+                <li>个人特性：拥有英语文档阅读能力，富有开源精神，拥有多个开源项目，热爱阅读和交流，擅长活跃气氛，热爱体育篮球、健身，把自己当作产品来打造。</li>
+                <li>近期书单：《javascript高级程序设计》《你不知道的javascript》《javascript设计模式与开发实践》《ES6标准入门》《Node js in action》《React小书》
+                </li>
+                <li>技术栈：Vue全家桶 + html + css + js + nodejs + express +mongoDB + 微信小程序</li>
+            </ul>
+        </main>
+    </section>
+    <!--footer-->
+    <footer>
+        <p>2017.07.04</p>
+    </footer>
 </div>
 </body>
 </html>
