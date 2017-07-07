@@ -37,6 +37,53 @@ li {
     visibility: hidden;
     clear: both;
 }
+.main .ss {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.main .s-title, .main .s-main {
+    min-width: 1200px;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.s-title h1 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.s-title p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777;
+    margin-bottom: 75px;
+    line-height: 1.1;
+}
+
+.l-btn a {
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #222;
+    transition: all .3s;
+    text-align: center;
+}
+
+.l-btn a:hover {
+    background: #fed136;
+}
+
 
 /*导航栏开始*/
 .header .n-c {
@@ -142,46 +189,20 @@ header .n-c ul li a:hover {
 }
 
 /*BANNER结束*/
-.main .ss {
-    padding: 150px 0;
-    text-align: center;
-}
-.main .s-main{
-    min-width: 1200px;
-    max-width: 1366px;
-    margin: 0 auto;
-}
-
-.s-title h1 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 15px;
-    line-height: 1.1;
-}
-.s-title p{
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    color: #777;
-    margin-bottom: 75px;
-    line-height: 1.1;
-}
 
 /*S1开始*/
-.s1 .s-main ul{
+.s1 .s-main ul {
     display: flex;
     justify-content: center;
 }
 
-.s1 .s-main li{
+.s1 .s-main li {
     width: 360px;
     padding: 0 15px;
 }
 
-.s1 .s-main h2{
-    font-family: 'iconfont'!important;
+.s1 .s-main h2 {
+    font-family: 'iconfont' !important;
     font-size: 56px;
     color: #fff;
     width: 112px;
@@ -192,49 +213,52 @@ header .n-c ul li a:hover {
     margin: 0 auto;
 }
 
-.s1 .s-main h3{
+.s1 .s-main h3 {
     margin: 15px 0;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.1;
 }
-.s1 .s-main p{
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+.s1 .s-main p {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #777;
     line-height: 1.75;
     margin: 0 0 10px;
 }
+
 /*S1结束*/
 /*S2开始*/
-.main .s2{
+.main .s2 {
     background: #f7f7f7;
 }
 
-.s2 .s-main ul{
+.s2 .s-main ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.s2 .s-main li{
+.s2 .s-main li {
     margin: 15px;
     border: 1px solid transparent;
     background: #fff;
 }
 
-.s2 .s-main .s2-pic{
+.s2 .s-main .s2-pic {
     display: block;
     height: 289px;
     position: relative;
 }
-.s2 .s-main .s2-pic:hover .font-icon{
+
+.s2 .s-main .s2-pic:hover .font-icon {
     opacity: .9;
-    background: rgba(254,209,54,.9);
+    background: rgba(254, 209, 54, .9);
 }
 
-.s2 .s-main .font-icon{
+.s2 .s-main .font-icon {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -245,9 +269,8 @@ header .n-c ul li a:hover {
     -webkit-transition: all ease .5s;
 }
 
-
-.s2 .s-main .font-icon span{
-    font-family: 'iconfont'!important;
+.s2 .s-main .font-icon span {
+    font-family: 'iconfont' !important;
     font-size: 98px;
     font-weight: bold;
     font-style: normal;
@@ -256,35 +279,241 @@ header .n-c ul li a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-
-.s2 .s-maim img{
+.s2 .s-maim img {
     width: 360px;
 }
 
-.s2 .s-main .des{
+.s2 .s-main .des {
     padding: 25px;
 }
 
-.s2 .s-main p{
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+.s2 .s-main p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
     color: #777;
     line-height: 1.75;
 }
+
 /*S2结束*/
+/*S3开始*/
+.s3 .s-main img, .s3 .s-main li:last-child {
+    width: 156px;
+    height: 156px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+}
 
+.s3 .s-main li {
+    padding-bottom: 100px;
+    position: relative;
+}
 
+.s3 .s-main li:last-child {
+    padding-bottom: 0;
+    margin: 0 auto;
+    background: #fed136;
+}
 
+.s3 .s-main aside {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 365px;
+    text-align: right;
+    margin-right: 85px;
+    padding: 0 40px;
+}
 
+.s3 .s-main li:nth-child(even) > aside {
+    left: 50%;
+    text-align: left;
+    margin-left: 85px;
+}
 
+.s3 .s-main aside time, .s3 .s-main aside h3 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
 
+.s3 .s-main aside p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.75;
+}
 
+.s3 .s-main li:after {
+    content: "";
+    display: block;
+    width: 2px;
+    background: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    margin-left: -1px;
+    z-index: -1;
+}
 
+.s3 .s-main li h4 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    margin-top: 40px;
+}
 
+/*S3结束*/
+/*S4开始*/
+.s4 {
+    background: #f7f7f7;
+}
+
+.s4 .s-main img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+}
+
+.s4 .s-main ul {
+    display: flex;
+    justify-content: center;
+    height: 407px;
+}
+
+.s4 .s-main li {
+    margin: 0 65px;
+}
+
+.s4 .s-main h3 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.s4 .s-main p {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.75;
+    margin: 0 0 10px;
+}
+
+.s4 .des p {
+    width: 750px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/*S4结束*/
+/*aside开始*/
+.aside .a-main {
+    display: flex;
+    justify-content: center;
+}
+
+.aside .a-main a {
+    display: inline-block;
+    margin: 50px 45px;
+}
+
+/*aside结束*/
+/*S5开始*/
+.s5 {
+    height: 484px;
+    background: url(img/s5-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.s5 .s-title h1 {
+    color: #fff;
+}
+
+.s5 .form {
+    display: flex;
+    justify-content: center;
+}
+
+.s5 .form .f-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.s5 .form .f-contact input {
+    width: 513px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.s5 .form .f-message {
+    margin: 0 15px;
+}
+
+.s5 .form .f-message textarea {
+    width: 513px;
+    height: 194px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.s5 form .f-submit input {
+    padding: 20px 40px;
+    border: 1px solid #fed136;
+    border-radius: 4px;
+    background: #fed136;
+    cursor: pointer;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*footer开始*/
+.footer {
+    width: 1200px;
+    height: 40px;
+    padding: 25px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .f-left, .footer .f-right {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .f-right a {
+    font-weight: bolder;
+    color: #fed136;
+}
+
+.footer .f-right a:last-child {
+    position: relative;
+    right: -10px;
+}
+
+.footer .f-right a:hover{
+    text-decoration: underline;
+}
 
 
 
