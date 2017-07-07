@@ -40,6 +40,6 @@ myPractise
 
 [2-2. resume2](http://liyu0906.cn/RM14/code2-resume2.html)
 
-## 入门15-静态单页
-[1. 静态单页](http://liyu0906.cn/RM15/code1-index.html)
+## 入门15-企业站实战
+[1. 企业站实战](http://liyu0906.cn/RM15/code1-index.html)
 
