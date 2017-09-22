@@ -2,7 +2,7 @@
 
 myPractise
 
-## 入门11-CSS单栏、双栏、三栏、圣杯、双飞翼布局
+## -CSS单栏、双栏、三栏、圣杯、双飞翼布局
 
 [1. 导航栏按钮](http://liyu0906.cn/RM11/code1.html)
 
@@ -24,15 +24,15 @@ myPractise
 
 [7. 三栏-双飞翼](http://liyu0906.cn/RM11/code7-sfy.html)
 
-## 入门12-浏览器兼容
+## -浏览器兼容
 
 [关于`CSS`浏览器兼容](./Reference/rm12.md)
 
-## 入门13-CSS 综合
+## -CSS 综合
 
 [CSS综合](./Reference/rm13.md)
 
-## 入门14-静态单页/简历
+## -静态单页/简历
 
 [1. 作品展示单页](http://liyu0906.cn/RM14/code1-blog.html)
 
@@ -40,6 +40,6 @@ myPractise
 
 [2-2. resume2](http://liyu0906.cn/RM14/code2-resume2.html)
 
-## 入门15-企业站实战
+## -企业站实战
 [1. 企业站实战](http://liyu0906.cn/RM15/code1-index.html)
 
