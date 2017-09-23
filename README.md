@@ -62,4 +62,6 @@ myPractise
 
 ## -企业站实战
 [1. 企业站实战](http://practise.liyu0906.cn/RM15/code1-index.html)
+[2. World of Warcraft](http://practise.liyu0906.cn/RM16/index.html)
+
 
