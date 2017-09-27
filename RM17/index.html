@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>假百度图片</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<nav class="navbox clearfix">
+    <ul class="clearfix">
+        <li><a href="http://www.baidu.com">网页</a></li>
+        <li><a href="http://news.baidu.com/">新闻</a></li>
+        <li><a href="https://tieba.baidu.com/index.html">贴吧</a></li>
+        <li><a href="https://zhidao.baidu.com/">知道</a></li>
+        <li><a href="http://music.baidu.com/">音乐</a></li>
+        <li><a href="http://v.baidu.com/">视频</a></li>
+        <li><a href="JavaScript:;" target="_blank" class="noline">图片</a></li>
+        <li><a href="http://map.baidu.com/">地图</a></li>
+        <li><a href="https://wenku.baidu.com/">文库</a></li>
+        <li><a href="JavaScript:;">|</a></li>
+        <li><a href="http://www.baidu.com">百度首页</a></li>
+        <li><a href="#" >登录</a></li>
+        <li><a href="https://passport.baidu.com/v2/?reg&regType=1&tpl=im&u=http%3A%2F%2Fimage.baidu.com%2F">注册</a></li>
+        <li><a href="JavaScript:;">收藏本页</a></li>
+    </ul>
+</nav>
+<section class="sectionbox">
+    <div class="divbox">
+        <img src="img/logoBaidu.png" height="210" width="488"/></div>
+    <div class="clearfix">
+        <input type="text" id="searchInp">
+        <a href="javascript:;" id="searchBtn">百度一下</a>
+        <script>
+            var searchBtn = document.getElementById('searchBtn'),
+                    searchInp = document.getElementById('searchInp');
+            searchBtn.onclick = function () {
+                window.location.href = 'https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&sf=1&fmq=&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&fm=index&pos=history&word=' + searchInp.value;
+            };
+        </script>
+    </div>
+</section>
+<section class="box">
+    <ul class="clearfix">
+        <li><a href="" target="_blank"><img src="img/1.jpg" alt=""/><span>PPT模板</span></a></li>
+        <li><a href="" target="_blank"><img src="img/2.jpg" alt=""/><span>宠物</span></a></li>
+        <li><a href="" target="_blank"><img src="img/3.jpg" alt=""/><span>高清动漫</span></a></li>
+        <li><a href="" target="_blank"><img src="img/4.jpg" alt=""/><span>微距摄影</span></a></li>
+        <li><a href="" target="_blank"><img src="img/5.jpg" alt=""/><span>多肉植物</span></a></li>
+        <li><a href="" target="_blank"><img src="img/6.jpg" alt=""/><span>头像</span></a></li>
+        <li><a href="" target="_blank"><img src="img/7.jpg" alt=""/><span>风景</span></a></li>
+        <li><a href="" target="_blank"><img src="img/8.jpg" alt=""/><span>小清新</span></a></li>
+        <li><a href="" target="_blank"><img src="img/9.jpg" alt=""/><span>星空</span></a></li>
+        <li><a href="" target="_blank"><img src="img/10.jpg" alt=""/><span>美女明星</span></a></li>
+    </ul>
+</body>
+</html>

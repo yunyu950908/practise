@@ -1,0 +1,122 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;/*隐藏溢出内容，禁止页面出现滚动条overflow-x/-y单独隐藏横向或者纵向滚动条*/
+ background: url("../img/timg.jpg") no-repeat;/*../返回上一层目录，背景图片地址需指定正确*/
+    background-size:cover;/*cover是按照当前图片最适合的宽高比例铺满屏幕，这样图片不会变形，一边大个的图片用cover*/
+
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+/*导航*/
+.nav{
+
+}
+.navbox ul{
+    /*在CSS中float会有bug一个容器A中的子元素B设置浮动那么B的高度不会撑开A的高度，假如B是36A依然为0，在真实项目需要解决，解决方案为给A容器的末尾追加一个虚拟元素然后给这个虚拟元素设置CLEAR:BOTH*/
+    float: right;
+}
+.navbox ul li{
+    float: left;
+    padding: 0 10px;
+ line-height: 36px;
+}
+.navbox ul li a{
+    font-size: 13px;
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbox ul li a.noline{
+    text-decoration: none;
+    cursor: text;
+}
+/*搜索区域*/
+.sectionbox{
+    width: 714px;
+    margin: 50px auto;
+}
+.sectionbox img{
+    /*img不是标准的行内与块状标签，在设置是我们可以先把它变成块状标签来处理*/
+    display: block;
+    width: 244px;
+    height: 105px;
+    margin: 0 auto;
+}
+.sectionbox div{
+    margin: 10px;
+}
+.sectionbox  input{
+float: left;
+    width: 488px;
+    height: 38px;
+    border: 1px solid #dddddd;
+    padding: 0 10px;
+    background: rgba(255,255,255,0.8);
+
+}
+.sectionbox  a{
+    float: left;
+    width: 104px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background: #38F;
+}
+.sectionbox div a:hover{
+    background: #317EF3;
+}
+.sectionbox div a:active{
+    background: red;
+}
+/*图片区域*/
+.box{
+    margin: 50px auto 0;
+    padding: 0 10px 10px 0;
+    width: 850px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.box ul{
+
+}
+.box ul li{
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.box ul li a{
+    display: block;
+    width: 160px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+.box ul li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .3s;
+}
+.box ul li a span{
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    color: #fcfffa;
+    font-size: 13px;
+    font-weight: bold;
+    text-indent: 10px;
+   background: -webkit-linear-gradient(top,rgba(121,104,72,0),rgba(121,104,72,1));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+.box ul li a:hover img{
+    -webkit-transform: scale(1.05);
+}
