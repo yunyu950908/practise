@@ -1,0 +1,825 @@
+/*reset*/
+html{
+	font-size: 62.5%;
+	font-family: "微软雅黑";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.public-container{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul,li{
+	list-style: none;
+}
+
+.clearfloat:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+/*<!-- 头部导航 -->*/
+
+header{
+	height: 56px;
+	position: relative;
+}
+
+header .logo{
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	vertical-align: middle;
+}
+
+header .logo>a{
+	display: inline-block;
+	background: url(image/logo.png) no-repeat;
+	background-position: 0 50%;
+	height: 56px;
+	width: 100%;
+	margin-left: 59px;
+}
+
+header .logo a>p{
+	display: inline-block;
+	font-size: 21px;
+	font-family: "黑体";
+	color: #393a3a;
+	padding-left: 42px;
+}
+
+nav{
+	display: inline-block;
+	height: 56px;
+	/*line-height: 56px;*/
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+nav>ul>{
+	padding-right: 146px;
+}
+nav>ul>li{
+	float: left;
+	display: inline-block;
+	width: 65px;
+	margin-right: 46px;
+	text-align: center;
+}
+
+nav>ul>li>a{
+	display: inline-block;
+	font-size: 14px;
+	color: #787b83;
+	width: 65px;
+	padding-top: 18.5px;
+	padding-bottom: 13.5px;
+}
+
+nav>ul>li>a:hover{
+	color: #e74f4d;
+	border-bottom: 5px solid #e74f4d;
+
+}
+
+.login{
+	display: inline-block;
+	background: url("image/login.png") no-repeat;
+	background-position: 0 50%;
+	height: 56px;
+	color: #e74f4d
+}
+
+.login>li:hover{
+	font-weight: bold;
+}
+
+.login>li{
+	padding-top: 18.5px;
+	padding-bottom: 13.5px;
+	padding-left: 19px;
+	width: 65px;
+	margin-right: 25px;
+}
+
+/*BANNER1*/
+
+.full{
+	background-color: rgba(4,0,0,0.2);
+	width: 100%;
+	height: 691px;
+}
+
+.banner_1{
+	width: 1280px;
+	height: 691px;
+	overflow: hidden;
+	background: url(image/banner_1.png);
+	margin: 0 auto;
+}
+
+.banner_1 .banner-text{
+	background-color: rgba(4,0,0,0.2);
+	height: 691px;
+	position: relative;
+}
+
+.banner_1 .banner-text .text-1{
+	font-size: 60px;
+	color: #fff;
+	line-height: 0.45;
+	position: absolute;
+	left: 116px;
+	top: 270px;
+}
+
+.banner_1 .banner-text .text-2{
+	font-size: 21px;
+	color: rgb(255, 253, 253);
+	position: absolute;
+	left: 124px;
+	top: 328px;
+}
+
+.banner_1 .banner-text>a{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: #e74f4d;
+	display: inline-block;
+	position: absolute;
+	left: 126px;
+	top: 429px;
+	width: 331px;
+	height: 65px;
+	line-height: 65px;
+}
+
+.banner_1 .banner-text>a:hover{
+	background-color:#f7413f;
+	transition: background-color 0.5;
+}
+
+/*主体1*/
+.part_1{
+	height: 251px;
+}
+
+.part_1>.tr{
+	margin: 45px 0;
+}
+
+.part_1>.tr>img{
+	display: inline-block;
+	margin: 0 138px;
+}
+
+.part_1-text{
+	margin-left: 80px;
+}
+
+.part_1-text>.tr{
+	display: table-row;
+	height: 52px;
+	line-height: 52px;
+}
+
+.part_1-text p{
+	display: table-cell;
+	width: 156px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #767777;
+	text-align:center; 
+	vertical-align: top;
+}
+
+.part_1-text i{
+	display: table-cell;
+	padding: 0 40px
+}
+
+.part_1-text span{
+	padding: 0 40px;
+	display: table-cell;
+	border-right: 2px solid #aaa;
+}
+
+/*第二部分*/
+/*BANNER2*/
+.banner_2{
+	height: 361px;
+	background-color: #edecec;
+}
+
+.banner_2>img{
+	margin: 89px 595px 48px;
+}
+
+.banner_2>p{
+	font-size: 53.59px;
+	font-family: "SimHei";
+	color: rgba(50, 51, 51, 0.502);
+	line-height: 1.056;
+	text-align: center;
+}
+
+/*主体2*/
+
+.part_2_search{
+	height: 341px;
+	position: relative;
+	background: url("image/part_2_search_bg.png");
+/*	background-color: rgba(201,166,158,0.2);*/
+}
+
+.part_2_search_bg {
+/*	background: url("image/part_2_search_bg.png");*/
+	position: absolute;
+	background-color: rgba(201,166,158,0.2);
+	height: 341px;
+	width: 1280px;
+}
+
+.part_2_search .part_2_1 .p_1{
+	font-size: 21px;
+	color: #fff;
+	margin-top: 53px;
+	margin-left: 501px;
+}
+
+.part_2_search .part_2_1 .p_2{
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-top: 19px;
+	margin-left: 449px;
+}
+
+.part_2_search .part_2_1>span{
+	display: block;
+	width: 31px;
+	height: 3px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 601px;
+}
+
+.part_2_search .part_2_2{
+	margin-top: 53px;
+	margin-left: 126px;
+}
+
+.part_2_search .part_2_2>select,button{
+	display: inline-block;
+	width: 236px;
+	height: 36px;
+	margin-right: 28px;
+	outline: none;
+	cursor: pointer;
+}
+
+.part_2_search .part_2_2>select{
+	font-size: 12px;
+	color: rgb(168, 170, 170);
+	border: 1px solid #be4e48;
+}
+
+.part_2_search .part_2_2>select>option{
+	background-color: #e3e3e4;
+	color: #323333
+}
+
+.part_2_search .part_2_2>img{
+	position: absolute;
+	top: 190px;
+	pointer-events:none;
+}
+
+.part_2_search .part_2_2 .sel_1{
+	left: 338px;
+}
+
+.part_2_search .part_2_2 .sel_2{
+	left: 604px;
+}
+
+.part_2_search .part_2_2 .sel_3{
+	left: 871px;
+}
+
+.part_2_search .part_2_2>button{
+	background-color: #be4e48;
+	color: #fff;
+	font-size: 14px;
+}
+
+.part_2_search .part_2_2>button:hover{
+	background-color: #d0443c;
+	transition: background-color 0.5;
+}
+
+/*主体2展示*/
+/*图片部分*/
+.part_2_show{
+	height: 605px;
+	background-color:#f7f7f7;
+	position:relative;
+}
+
+.part_2_show .showpic{
+	margin-left: 148px;
+}
+
+.part_2_show .showpic>img{
+	display: inline-block;
+	padding: 11px 8px;
+	margin-top: 127px;
+	border: 1px solid #e1e1e1;
+	margin-right: 36px;
+}
+
+.part_2_show .showpic .special{
+	position: relative;
+	top:53px;
+}
+
+.part_2_show .intro>img{
+	width: 838px;
+	height: 385px;
+	position: absolute;
+	left: 230px;
+	bottom: 90px;
+}
+
+/*第三部分*/
+/*BANNER3*/
+
+.part_3{
+	position: relative;
+	width: 1280px;
+	height: 1086px;
+}
+
+.part_3 .banner_3_1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 851px;
+	height: 567px;
+	background: url("image/banner_3_1.png");
+}
+
+.part_3 .banner_3_1>p{
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.part_3 .banner_3_1 .p_1 {
+	font-size: 49.473px;
+	margin-top: 131px;
+	line-height: 49px;
+}
+
+.part_3 .banner_3_1 .p_2{
+	font-size: 157.788px;
+	margin-top: 11px;
+	line-height: 120px;
+}
+
+.part_3 .banner_3_1 .p_3{
+	font-size: 22px;
+	margin-top: 39px;
+	line-height: 22px;
+}
+
+.part_3 .banner_3_1 .p_4{
+	font-size: 22px;
+	margin-top: 20px;
+	line-height: 22px;
+}
+
+.part_3 .banner_3_1>span{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 267px;
+	width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-right: 31px solid #fff;
+    border-bottom: 26px solid transparent;
+}
+
+.part_3 .banner_3_2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 430px;
+	height: 567px;
+}
+
+.part_3 .banner_3_2 .title{
+	display: block;
+	background: url("image/banner_3_2_title.png");
+	margin-top: 165px;
+	margin-left: 163px;
+	width: 103px;
+	height: 20px;
+}
+
+.part_3 .banner_3_2>p{
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgb(170, 170, 170);
+	line-height: 2.5;
+	margin-top:34px;
+	padding: 0 71px;
+}
+
+.part_3 .banner_3_2 .more{
+	display: block;
+	width: 104px;
+	height: 32px;
+	border: 1px solid #e25c60;
+	font-size: 12px;
+	color: #e25c60;
+	line-height: 32px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.part_3 .banner_3_2 .more:hover{
+	background: #ec555a;
+	color: #fff;
+}
+
+.part_3 .banner_3_2 .dot{
+	text-align: center;
+	margin-top: 26px;
+}
+
+.part_3 .banner_3_2 .dot>a{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1.5px solid #9e9ea5;
+	border-radius: 6px;
+	margin: 0 7px;
+}
+.part_3 .banner_3_2 .dot>a:hover{
+	background: #929293;
+}
+
+.part_3 .btn_left{
+	position: absolute;
+	top: 566px;
+	left: 0;
+	bottom: 0;
+	width: 426px;
+	height: 521px;
+	background-color: #e74f4d;
+}
+
+.part_3 .btn_left>p{
+	font-size: 21px;
+	font-family: "SimHei";
+	color: #fff;
+	line-height: 1.446;
+	text-align: center;
+	margin-top: 173px;
+}
+
+.part_3 .btn_left>span{
+	display: block;
+	width: 31px;
+	height: 3px;
+	background-color: #fff;
+	margin: 24px auto;
+}
+
+.part_3 .btn_left>a{
+	display: block;
+	font-size: 21px;
+	font-family: "SimHei";
+	color: #fff;
+	line-height: 1.143;
+	margin: 0 128px;
+	padding: 11px 41px;
+	border: 1px solid #fff;
+}
+
+.part_3 .btn_left>a:hover{
+	color: #e74f4d;
+	background-color: #fff;
+	/*background-color: #d7403e;*/
+}
+
+.part_3 .btn_middle{
+	position: absolute;
+	top: 566px;
+	left: 426px;
+	bottom: 0;
+	width: 426px;
+	height: 521px;
+}
+
+.part_3 .btn_middle>p{
+	font-size: 21px;
+	font-family: "SimHei";
+	color: rgb(50, 51, 51);
+	line-height: 1.446;
+	margin-top: 173px;
+	text-align: center;
+}
+
+.part_3 .btn_middle>span{
+	display: block;
+	width: 31px;
+	height: 3px;
+	background-color: #abaaaa;
+	margin: 24px auto;
+}
+
+.part_3 .btn_middle>a{
+	display: block;
+	font-size: 21px;
+	font-family: "SimHei";
+	color: #e74f4d;
+	line-height: 1.143;
+	margin: 0 128px;
+	padding: 11px 41px;
+	border: 1px solid #e74f4d;
+}
+
+.part_3 .btn_middle>a:hover{
+	color: #fff;
+	background-color: #e74f4d;
+}
+
+.part_3 .btn_right{
+	position: absolute;
+	top: 566px;
+	right: 0;
+	bottom: 0;
+	width: 430px;
+	height: 521px;
+	background: url("image/btn_right.png");
+}
+
+.part_3 .btn_right .shadow{
+	width: 430px;
+	height: 521px;
+	background:rgba(4,0,0,0.4);
+}
+
+/*表单*/
+
+.form_container{
+	height: 631px;
+	padding-top: 118px;
+	position: relative;
+}
+
+.form_container .top{
+	text-align: center;
+}
+
+.form_container .top>h1{
+	display: block;
+	font-size: 21px;
+	font-family: "SimHei";
+	color: rgb(50, 51, 51);
+	text-align: center;
+}
+
+.form_container .top>span{
+	width: 30px;
+	height: 2px;
+	display: block;
+	background: #e74f4d;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.form_container .top>p{
+	font-size: 12px;
+	color: rgb(170, 170, 170);
+	line-height: 1.5;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 421px;
+}
+
+.form_container .btn{
+	margin:107px 139px;
+	position: relative;
+}
+.form_container .btn .left{
+	width: 288px;
+}
+
+.form_container .btn .left>h2{
+	font-size: 14px;
+	font-family: "SimHei";
+	color: rgba(35, 24, 21, 0.8);
+	text-align: left;
+	font-weight: normal;
+}
+
+.form_container .btn .left>h2:before{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+
+.form_container .btn .left>p{
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgba(35, 24, 21, 0.6);
+	line-height: 1.75;
+	text-align: left;
+	margin-top: 27px;
+}
+
+.form_container .btn .left>a{
+	display: block;
+	float: right;
+	text-align: right;
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgba(35, 24, 21, 0.6);
+	margin-bottom: 27px;
+	background: url("image/form_containe_btn_left_a.png") no-repeat;
+	background-position: 0 70%;
+	padding-left: 16px;
+}
+
+form{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+form .tr{
+	display: table-row;
+}
+
+form .ts{
+	display: table-cell;
+}
+form input{
+	margin-right: 18px;
+	margin-bottom: 14px;
+	padding: 16px;
+	border: none;
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgba(35, 24, 21, 0.8);
+	width: 278px;
+}
+
+
+form textarea,form input{
+	display: block;
+	outline: none;
+	background-color: #ededee;
+}
+
+textarea{
+	padding: 17px;
+	width: 605px;
+	height: 87px;
+	border: none;
+}
+
+form input[type=submit]{
+	width: 639px;
+	height: 41px;
+	margin-top: 13px;
+	font-size: 14px;
+	font-family: "SimHei";
+	color: rgb(50, 51, 51);
+	text-align: center;
+	cursor: pointer;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	min-width: 1280px;
+}
+
+/*联系我们*/
+footer .connection{
+	height: 268px;
+	background-color: #32353e;
+	padding-top: 92px;
+}
+
+footer .connection>h1{
+	font-size: 21px;
+	font-family: "SimHei";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0 auto;
+}
+footer .connection>p{
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	text-align: center;
+	margin: 11px auto;
+	width: 468px;
+}
+
+
+footer .connection .connect{
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer .connection .connect>input{
+	width: 420px;
+	height: 40px;
+	border:1px solid #65676e;
+	padding-left: 10px;
+}
+
+footer .connection .connect>button{
+	width: 82px;
+	height: 42px;
+	background: #6f7278;
+	color: #fff;
+	line-height: 40px;
+	border:1px solid #65676e;
+	position: relative;
+	left: -4px;
+	margin: 0;
+}
+
+footer .connection .pic{
+	margin: 37px auto;
+	text-align: center;
+}
+
+footer .connection .pic>img{
+	display: inline-block;
+	margin-right: 28px;
+}
+
+/*页脚*/
+footer{
+	background-color:#303039;	
+}
+
+footer .public-container{
+	height: 58px;
+	position: relative;
+}
+
+footer .public-container>span{
+	display: inline-block;
+	color: #fff;
+	position: absolute;
+	bottom: 16px;
+	left: 99px;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+footer .public-container>a{
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	font-family: "SimSun";
+	position: absolute;
+	bottom: 16px;
+	right: 41px
+}
+
